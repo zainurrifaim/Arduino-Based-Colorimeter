@@ -129,7 +129,8 @@ Test the logic and virtual circuit without building physical hardware!
 
 ```
 Arduino-Based Colorimeter/
-├── colorimeter.ino              # Physical hardware version (3-pin LDR)
+├── colorimeter/
+│   └── colorimeter.ino           # Physical hardware version (3-pin LDR)
 ├── tinkercad_simulation/
 │   └── colorimeter_tinkercad.ino # Simulation version (discrete photoresistor)
 ├── CAD/                          # 3D models and hardware designs
